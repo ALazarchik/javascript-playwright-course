@@ -1,0 +1,16 @@
+{
+    "name": "javascript-playwright-course",
+    "scripts": {
+        "test:headless": "playwright test",
+        "test:headed": "playwright test --headed",
+        "report": "npx playwright show-report"
+    },
+    "author": "Andrei Lazarchik",
+    "devDependencies": {
+        "@playwright/test": "^1.33.0",
+        "chance": "^1.1.11",
+        "dotenv": "^16.0.3",
+        "node-fetch": "^2.6.11",
+        "uuid": "^9.0.0"
+    }
+}
